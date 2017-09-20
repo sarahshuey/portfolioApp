@@ -4,16 +4,14 @@ export default class Home extends Component {
   render() {
     // INLINE STYLING
     let otherStyle = {
-      "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      "backgroundColor": "#A18CFF",
       "backgroundSize": "cover",
-      "textShadow": "1px 1px 2px black",
       "height": "100%",
       "padding": "100px"
     }
     let aboutStyle = {
-      "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      "backgroundColor": "#A18CFF",
       "backgroundSize": "cover",
-      "textShadow": "1px 1px 2px black",
       "backgroundPosition": "top",
       "height": "100%",
       "padding": "100px"

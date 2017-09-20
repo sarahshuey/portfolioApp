@@ -5,17 +5,21 @@ export default class About extends Component {
   render() {
 
 let otherStyle = {
+  "backgroundColor": "#00FFCE",
       "backgroundSize": "cover",
-      "textShadow": "1px 1px 2px black",
       "height": "50%",
-      "padding": "100px"
+      "padding": "100px",
+      "fontFamily": "Arizonia",
+      "textAlign":"center"
     }
     let aboutStyle = {
+      "backgroundColor": "#00FFCE",
       "backgroundSize": "cover",
-      "textShadow": "1px 1px 2px black",
       "backgroundPosition": "top",
       "height": "50%",
-      "padding": "100px"
+      "fontFamily": "Arizonia",
+      "padding": "100px",
+      "textAlign":"center"
     }
     return (
       <div className="app-body about offset col-lg-10 col-lg-offset-1">

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import image from '../images/download.jpg'
+import image2 from '../images/image-slider2.jpg'
+import image3 from '../images/images.jpg'
 
 export default class Portfolio extends Component {
   render(){
     let style = {
-      "backgroundColor": "blue",
+      "backgroundColor": "#A18CFF",
       "backgroundSize": "cover",
       "height": "100%",
       "padding": "50px"
@@ -15,9 +18,9 @@ export default class Portfolio extends Component {
       <div className="app-body findus offset col-lg-10 col-lg-offset-1">
         <section className="row" style={style}>
         <div className="image">
-          <img style={{width: 150, height: 150}} src={"src/images/download.jpg"}/>
-          <img style={{width: 150, height: 150}} src={"src/images/image-slider2.jpg"}/>
-          <img style={{width: 150, height: 150}} src={"src/images/images.jpg"}/>
+        <img style={{width: 250, height: 250, padding:"10px"}} src={image} alt="img"></img>
+          <img style={{width: 250, height: 250, padding:"10px"}} src={image2} alt="img"/>
+          <img style={{width: 250, height: 250, padding:"10px"}} src={image3} alt="img"/>
           </div>
           <div className="col-lg-8 map">
             <h3 className="sub-headings" style={subHeadings}>Me</h3>
